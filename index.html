@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Créer votre compte - KinMarche</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image:url(photo/red-6224930.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .container {
+      background-color: white;
+      width: 800px;
+      height: 500px;
+      display: flex;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .left {
+      width: 40%;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .left img {
+      max-width: 80%;
+    }
+
+    .right {
+      width: 60%;
+      background: #7d1e1e;
+      color: white;
+      padding: 30px;
+      box-sizing: border-box;
+    }
+
+    fieldset {
+      border: 0px solid #fff;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 1.5em;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .input-group {
+      margin-bottom: 30px;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .btn {
+      background-color: #FFA500;
+      color: white;
+      padding: 10px;
+      width: 105%;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #e69500;
+    }
+
+    .login {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .login a {
+      color: #FFA500;
+      text-decoration: none;
+    }
+
+    .google-btn {
+      margin-top: 10px;
+      background-color: #fff;
+      color: #000;
+      border: none;
+      padding: 10px;
+      width: 105%;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .google-btn:hover {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <img src="photo/386584114_730214999124352_8838553684942556484_n.jpg" alt="KinMarche Logo"> <!-- Image logo -->
+    </div>
+    <div class="right">
+      <fieldset>
+        <h1>Créer votre compte</h1> <br>
+        <div class="input-group">
+          <input type="text" placeholder="Entrer votre Noms">
+        </div>
+        <div class="input-group">
+          <input type="email" placeholder="Entrer votre Email">
+        </div>
+        <div class="input-group">
+          <input type="password" placeholder="Entrer votre Mot de passe">
+        </div>
+        <button class="btn">Créer</button>
+        <div class="login">
+          Avez-vous déjà un compte ? <a href="#">Log in</a>
+        </div>
+        <div class="login">- OU -</div>
+        <button class="google-btn">Connexion avec Google</button>
+      </fieldset>
+    </div>
+  </div>
+</body>
+</html>
